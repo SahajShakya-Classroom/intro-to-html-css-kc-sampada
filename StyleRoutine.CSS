@@ -1,0 +1,19 @@
+th,td{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+body{
+    text-align: center;
+}
+#lab
+{
+    background-color: rgb(200, 216, 248);
+}
+th
+{
+    background-color: rgb(206, 211, 222);
+}
+table{
+    border-collapse: collapse;
+}

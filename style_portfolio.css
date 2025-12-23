@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(244, 236, 246, 0.26);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(193, 175, 212);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+.ulclass {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.ulclass li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.ulclass li a:hover {
+    color: rgb(138, 0, 173);
+}
+/* Sections */
+.section {
+    padding: 40px;
+}
+
+/* Home */
+.home {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.home img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Button */
+.btn {
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color:rgb(193, 175, 212);
+    color: white;
+}
+.contact-bar {
+    background-color: rgb(193, 175, 212);
+    color: black;
+    padding: 20px ;
+    text-align: center;
+}
+
+/* Table */
+th,td{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+#lab
+{
+    background-color: rgb(175, 198, 170);
+}
+th
+{
+    background-color: rgb(206, 211, 222);
+}
+table{
+    border-collapse: collapse;
+     text-align: center;
+}
+
+/* Form */
+#form{
+     display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:40px 20px;
+}
+#form h2{
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+.myform{
+    padding:25px;
+    width:100%;
+    max-width: 400px;
+    border-radius: 8px ;
+    box-shadow: 0px 4px 10px gray;
+}
+.input{
+    margin-bottom: 15px;
+}
+.input label{
+    display: block;
+    margin-bottom: 5px; 
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.input input, 
+.input textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+}
+.input input:focus,
+.input textarea:focus {
+    border-color: rgb(193, 175, 212)
+}
+#submitBtn:hover{
+    background-color: rgb(193, 175, 212);
+    color: white;
+}
+#submitBtn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: darkgray;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
